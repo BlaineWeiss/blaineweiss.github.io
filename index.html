@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blaine Weiss | Neurovascular Imaging</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="bg-grid"></div>
+
+  <header class="site-header glass">
+    <a class="brand" href="index.html">BLAINE WEISS</a>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="tools.html">Tools</a>
+      <a href="publications.html">Publications</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Neurovascular Imaging • Astrocyte Dynamics • Computational Discovery</p>
+        <h1>A cinematic front page for your science.</h1>
+        <p class="lead">High-fidelity microscopy visuals, publication-ready narratives, and immersive interactive storytelling for neurovascular research.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="tools.html">Explore STONE-LAVA</a>
+          <a class="btn" href="#videos">Microscopy Videos</a>
+        </div>
+      </div>
+      <aside class="profile-card glass">
+        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=600&q=80" alt="Portrait placeholder" />
+        <h2>Blaine Weiss</h2>
+        <p>Neuroscience researcher focused on astrocytes, arterioles, and dynamic vascular coupling.</p>
+        <div class="social-row">
+          <a class="social" href="https://www.researchgate.net" target="_blank" rel="noreferrer" aria-label="ResearchGate">
+            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path fill="currentColor" d="M19.586 0H4.414A4.414 4.414 0 0 0 0 4.414v15.172A4.414 4.414 0 0 0 4.414 24h15.172A4.414 4.414 0 0 0 24 19.586V4.414A4.414 4.414 0 0 0 19.586 0M9.394 8.625c.752 0 1.32.157 1.704.472.393.305.59.77.59 1.395 0 .384-.094.706-.281.967-.177.261-.441.468-.79.62.48.126.834.359 1.066.697.24.339.36.783.36 1.333 0 .689-.218 1.204-.654 1.544-.437.34-1.078.51-1.924.51H6.556V8.625zm-.11 2.88c.45 0 .773-.07.97-.211.196-.142.294-.374.294-.697 0-.31-.098-.532-.295-.666-.196-.134-.52-.201-.969-.201H7.96v1.775zm.18 3.552c.488 0 .833-.082 1.034-.246.2-.163.3-.432.3-.805 0-.355-.1-.614-.3-.776-.2-.163-.546-.244-1.034-.244H7.96v2.071zm8.524.106h-1.53l-1.205-2.53h-1.63v2.53h-1.404V8.625h2.986c.759 0 1.338.163 1.738.49.4.327.601.792.601 1.395 0 .444-.1.819-.3 1.125-.193.297-.487.537-.88.718zM14.98 11.53c.438 0 .752-.072.941-.215.19-.142.284-.375.284-.698 0-.315-.094-.542-.284-.683-.189-.141-.503-.211-.94-.211h-1.356v1.807z"/></svg>
+          </a>
+          <a class="social" href="contact.html">Contact</a>
+        </div>
+      </aside>
+    </section>
+
+    <section id="videos" class="section glass">
+      <h2>Microscopy Imaging Showcase</h2>
+      <p>Drop in your curated videos here (MP4/YouTube/Vimeo embeds). The grid is ready for high-impact motion storytelling.</p>
+      <div class="video-grid">
+        <article class="video-card">
+          <h3>Astrocyte Signal Propagation</h3>
+          <div class="video-frame"><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Microscopy placeholder 1" allowfullscreen></iframe></div>
+        </article>
+        <article class="video-card">
+          <h3>Arteriole Dynamics</h3>
+          <div class="video-frame"><iframe src="https://www.youtube.com/embed/oHg5SJYRHA0" title="Microscopy placeholder 2" allowfullscreen></iframe></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.min.js"></script>
+  <script src="assets/hero.js"></script>
+</body>
+</html>
