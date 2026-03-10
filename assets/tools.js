@@ -1,3 +1,4 @@
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/assets/tools.js b/assets/tools.js
 index 62d472f6fe8e06afded80f980edf1a7ceb204add..e0b645750a63fbbe0e9054b83098c70c6f8030ef 100644
 --- a/assets/tools.js
@@ -249,3 +250,6 @@ index 62d472f6fe8e06afded80f980edf1a7ceb204add..e0b645750a63fbbe0e9054b83098c70c
 +  window.addEventListener('resize', resize);
 +  animate();
  })();
+ 
+EOF
+)
